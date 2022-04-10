@@ -17,7 +17,7 @@ class attack(threading.Thread):
 
 
 if len(sys.argv) < 2:
-    print 'Usage: ' + sys.argv[0] + ' KETIK : IP PORT PACKET THREADS'
+    print 'Usage: ' + sys.argv[0] + ' KETIK : IP PORT PACKET'
     sys.exit()
 try:
     threads = sys.argv[4]
